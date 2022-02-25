@@ -51,6 +51,13 @@ nav a:hover{
     transform:translate(-50%,50%)
 }
 
+#side{
+    background-color: rgba(173, 171, 171, 0.027);
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
 .flexbox-container{
     display: flex;
     flex-direction: column;
@@ -89,10 +96,6 @@ footer{
     padding: 10px;
 }
 
-.contain{
-    display:flex;
-    justify-content: center;
-}
 
 h5, h6{
     font-size:large;
@@ -100,4 +103,11 @@ h5, h6{
 
 .f3{
     font-size: large;
+}
+
+.seprate{
+   display: flex;
+   padding: 10px;
+   justify-content:space-between;
+   align-items:center;
 }
