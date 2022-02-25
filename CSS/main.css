@@ -88,3 +88,16 @@ footer{
     background-color: black;
     padding: 10px;
 }
+
+.contain{
+    display:flex;
+    justify-content: center;
+}
+
+h5, h6{
+    font-size:large;
+}
+
+.f3{
+    font-size: large;
+}
